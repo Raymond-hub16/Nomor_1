@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/bttnDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RAYMOND"
+
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#020F59"
+        />
+    
+    
+    <Button
+        android:id="@+id/bttnprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:layout_marginTop="16dp"
+        />
+    <Button
+        android:id="@+id/bttnaboutMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tetang Saya"
+
+        />
+
+    <Button
+        android:id="@+id/bttnCallMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hubungi saya"
+        />
+
+        />
+
+
+</LinearLayout>
